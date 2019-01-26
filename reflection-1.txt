@@ -39,6 +39,10 @@ Error messages
  Instead it’s output by GHC, the compiler for a programming language called Haskell. 
  It’s reserved for particularly surprising errors!
  
+-Leave 'detached HEAD' state
+ Right now, your HEAD should still be 'detached' from Lesson 1 when you checked out an old commit. 
+ To fix that, run the command git checkout master. 
+ You'll learn more about what this command does later this lesson.
  ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
  
  When you initialize the repository, Git doesn’t create any commits for you. You’ll have to create the first commit yourself.
