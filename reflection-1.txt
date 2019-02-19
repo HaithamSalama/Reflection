@@ -20,6 +20,11 @@ git checkout ID							# reset all files to how they at the time that commit was 
 git commit -m "First commit				# Commits the tracked changes and prepares them to be pushed to a remote repository. 
 										 To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit 
 										 and add the file again.
+git branch aaa							# make a new branch named aaa
+git checkout aaa						# make aaa current branch
+git checkout -b aaa						# make a new branch named aaa and make it the current				 
+git mirge aaa							# merge aaa branch with the current	branch
+git show ddd							# show difference between commit ddd & it's parents			 
 ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 Error messages
 
